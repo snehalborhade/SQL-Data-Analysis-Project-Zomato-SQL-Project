@@ -20,4 +20,14 @@ The core of the project involves addressing 16 distinct business problems that m
 
 
 
+TRUNCATE TABLE orders, customers, deliveries, restaurants, riders;
+
+
+SELECT * FROM customers;
+SELECT * FROM restaurants;
+SELECT * FROM orders;
+SELECT * FROM riders;
+SELECT * FROM deliveries;
+
+
 
