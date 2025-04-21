@@ -17,7 +17,8 @@ To maintain data integrity and ensure accurate analysis, null values and inconsi
 4. Business Problem Solving Using SQL
 The core of the project involves addressing 16 distinct business problems that mimic real operational and strategic challenges faced by food delivery platforms. These problems range from identifying high-performing restaurants and analyzing customer behavior to optimizing delivery performance and revenue generation. Each problem is solved through the implementation of advanced SQL queries involving joins, subqueries, aggregations, window functions, and conditional logic.
 
-DATABASE SETUP:=
+##DATABASE SETUP:=
+...
 --zomato Data Analysis using SQL
 CREATE TABLE customers(
 				customer_id INT PRIMARY KEY, 
@@ -54,7 +55,7 @@ ALTER TABLE orders
 ADD CONSTRAINT fk_restaurants
 FOREIGN KEY (restaurant_id)
 REFERENCES restaurants(restaurant_id);
-
+...
 			
 CREATE TABLE riders
 				(
