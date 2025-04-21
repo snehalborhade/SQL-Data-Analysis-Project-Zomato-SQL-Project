@@ -61,7 +61,7 @@ CREATE TABLE riders
 				 sign_up DATE
 
 				);
-CREATE TABLE deliveries
+    CREATE TABLE deliveries
 					(
                       delivery_id INT PRIMARY KEY, 
 					  order_id	INT, -- FROM ORDERS TABLR
@@ -69,6 +69,8 @@ CREATE TABLE deliveries
 					  delivery_time	TIME,
 					  rider_id INT -- FROM RIDERS TABLE
 					);
+    
+
 
 ALTER TABLE deliveries
 ADD CONSTRAINT fk_orders
